@@ -4,6 +4,7 @@
   --color-background: var(--color-stone-50);
   --color-background-accent: var(--color-stone-200);
   --color-foreground: var(--color-stone-950);
+  --color-foreground-accent: var(--color-stone-700);
   --color-primary: var(--color-stone-950);
   --color-primary-foreground: var(--color-stone-50);
   --color-primary-accent: var(--color-stone-800);
@@ -12,6 +13,6 @@
 
 @layer base {
   body {
-    @apply min-h-screen antialiased bg-background text-foreground;
+    @apply bg-background text-foreground min-h-screen antialiased;
   }
 }
